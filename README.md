@@ -1,0 +1,2 @@
+# python_uv_cpp_template
+uvによって管理された、C++コードを含んだpythonプロジェクトのtemplate
