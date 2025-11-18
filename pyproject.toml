@@ -16,6 +16,10 @@ build-backend = "scikit_build_core.build"
 wheel.packages = ["mypkg"]
 minimum-version = "0.7"
 cmake.verbose = true
+sdist.include = [
+    "extern/zlib/include/**",
+    "extern/zlib/lib/zlibstatic.lib",
+]
 
 [tool.uv]
 managed = true
