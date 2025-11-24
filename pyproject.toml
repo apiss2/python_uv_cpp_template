@@ -26,5 +26,6 @@ managed = true
 
 [dependency-groups]
 dev = [
+    "git-filter-repo>=2.47.0",
     "ninja>=1.13.0",
 ]
